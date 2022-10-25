@@ -1,6 +1,6 @@
 {
   "name": "@kpucha/ngx-mat-light-switch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reusable and Customizable Angular Material Component - Switch app's themes (light and dark)",
   "keywords": [
     "angular",
