@@ -1,27 +1,106 @@
-# NgxMatLightSwitch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+# ngx-mat-light-switch
 
-## Development server
+Reusable and Customizable Angular Material Component - Switch app's themes (light and dark)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[@kpucha](https://www.github.com/kpucha)
 
-## Code scaffolding
+![GitHub](https://img.shields.io/github/license/kpucha/ngx-mat-light-switch?style=for-the-badge) 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+//TODO
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install with npm
 
-## Running end-to-end tests
+```bash
+  //TODO
+```
+    
+## Usage/Examples
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```html
+<ngx-mat-light-switch/>
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Directives
+
+### Properties
+
+| Name | Type     | Description                       | Default value |
+| :-------- | :------- | :-------------------------------- | :---------|
+| `@Input() lightsOn`      | `Boolean` | Light status | *true* |
+| `@Input() color`      | `ThemePalette` | Theme palette used -> 'accent' \| 'primary' \| 'warn' | *'accent'* |
+| `@Input() tooltipOn`      | `string` | Tooltip text when lights are on| *'Turn lights off'* |
+| `@Input() tooltipOff`      | `string` | Tooltip text when lights are off| *'Turn lights on'* |
+| `@Input() matIconOn`      | `string` | Icon when lights are on| *'dark_mode'* |
+| `@Input() matIconOff`      | `string` | Icon when lights are off| *'light_mode'* |
+
+
+
+### Methods
+
+#### Get light status
+```javascript
+.lightStatus()
+```
+
+| Return | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `status`      | `boolean` | Current light status|
+
+#### Set light status
+```javascript
+.setLight(status)
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `status`      | `boolean` | **Required**. Status to set lights to|
+
+#### Toggle light status
+
+```javascript
+  .toggleLigths()
+```
+
+
+
+
+
+
+## Usage Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/kpucha/ngx-mat-light-switch.git
+```
+
+Go to the project directory
+
+```bash
+  cd ngx-mat-light-switch
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Build it
+
+```bash
+  npm build
+```
+
+Import the component from your local distribution
+```javascript
+  import {NgxMatLightSwitchComponent} from '<<PATH_OF_NGX_MAT_LIGHT_SWITCH>>/dist/ngx-mat-light-switch-library';
+```
+
