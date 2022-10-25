@@ -1,6 +1,25 @@
 {
-  "name": "ngx-mat-light-switch",
+  "name": "@kpucha/ngx-mat-light-switch",
   "version": "0.0.0",
+  "description": "Reusable and Customizable Angular Material Component - Switch app's themes (light and dark)",
+  "keywords": [
+    "angular",
+    "material",
+    "angular-material",
+    "component",
+    "ngx-mat",
+    "angular-component",
+    "angular-material-component",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/kpucha/ngx-mat-light-switch",
+  "private": false,
+  "author": "kpucha <alcala28043@gmail.com> (https://github.com/kpucha)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpucha/ngx-mat-light-switch.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +27,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",

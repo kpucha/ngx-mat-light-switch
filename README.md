@@ -15,7 +15,7 @@ Reusable and Customizable Angular Material Component - Switch app's themes (ligh
 Install with npm
 
 ```bash
-  //TODO
+  npm install @kpucha/ngx-mat-light-switch
 ```
 
 ## Usage / Examples
