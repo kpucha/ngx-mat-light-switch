@@ -15,7 +15,7 @@ import { ThemePalette } from '@angular/material/core';
     <button
       mat-icon-button
       [color]="color"
-      (click)="toggleTheme()"
+      (click)="toggleLight()"
       [matTooltip]="lightsOn ? tooltipOn : tooltipOff"
     >
       <mat-icon>
@@ -26,7 +26,7 @@ import { ThemePalette } from '@angular/material/core';
   styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NgxMatLightSwitchLibraryComponent implements OnInit {
+export class NgxMatLightSwitchComponent implements OnInit {
 
   @Input() lightsOn: Boolean = true;
   @Input() color: ThemePalette = 'accent';
@@ -48,7 +48,7 @@ export class NgxMatLightSwitchLibraryComponent implements OnInit {
     this.setLightClass2Body();
   }
 
-  public toggleTheme() {
+  public toggleLight() {
     this.lightsOn = !this.lightsOn;
     this.setLightClass2Body();
   }
