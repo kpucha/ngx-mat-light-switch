@@ -1,11 +1,49 @@
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+---
+name: Feature request
+about: Use this template for tracking new features.
+title: "[DATE]: [FEATURE NAME]"
+labels: enhancement
+assignees: kpucha
+---
+<!--
+PLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
+-->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## I'm submitting a...
+<!-- 
+Please search GitHub for a similar issue or PR before submitting.
+Check one of the following options with "x" -->
+<pre><code>
+[ ] Feature request
+[ ] Documentation issue or request
+[ ] Support request => Please do not submit support request here, instead post your question on Stack Overflow.
+</code></pre>
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Current behavior
+<!-- Describe how the issue manifests. -->
+
+
+## Expected behavior
+<!-- Describe what the desired behavior would be. -->
+
+
+## Minimal reproduction of the problem with instructions
+<!-- Please share a repo, a gist, or step-by-step instructions. -->
+
+## What is the motivation / use case for changing the behavior?
+<!-- Describe the motivation or the concrete use case. -->
+
+
+## Environment
+
+<pre><code>
+ 
+For Tooling issues:
+- Node version: XX  <!-- run `node --version` -->
+- Platform:  <!-- Mac, Linux, Windows -->
+
+Others:
+<!-- Anything else relevant?  Operating system version, IDE, package manager, ... -->
+</code></pre>

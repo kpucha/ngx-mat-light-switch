@@ -1,3 +1,10 @@
+---
+name: Custom
+about: Use this template for tracking customs.
+title: "[DATE]: [FEATURE NAME]"
+labels: bug, enhancement
+assignees: kpucha
+---
 <!--
 PLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.
 
@@ -9,9 +16,6 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 Please search GitHub for a similar issue or PR before submitting.
 Check one of the following options with "x" -->
 <pre><code>
-[ ] Regression <!--(a behavior that used to work and stopped working in a new release)-->
-[ ] Bug report
-[ ] Feature request
 [ ] Documentation issue or request
 [ ] Support request => Please do not submit support request here, instead post your question on Stack Overflow.
 </code></pre>

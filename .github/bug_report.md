@@ -1,29 +1,51 @@
-**Describe the bug**
-A clear and concise description of what the bug is.
+---
+name: Bug Report
+about: Use this template for tracking bugs.
+title: "[DATE]: [FEATURE NAME]"
+labels: bug
+assignees: kpucha
+---
+<!--
+PLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
+-->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## I'm submitting a...
+<!-- 
+Please search GitHub for a similar issue or PR before submitting.
+Check one of the following options with "x" -->
+<pre><code>
+[ ] Regression <!--(a behavior that used to work and stopped working in a new release)-->
+[ ] Bug report
+[ ] Feature request
+[ ] Documentation issue or request
+[ ] Support request => Please do not submit support request here, instead post your question on Stack Overflow.
+</code></pre>
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Current behavior
+<!-- Describe how the issue manifests. -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## Expected behavior
+<!-- Describe what the desired behavior would be. -->
 
-**Additional context**
-Add any other context about the problem here.
+
+## Minimal reproduction of the problem with instructions
+<!-- Please share a repo, a gist, or step-by-step instructions. -->
+
+## What is the motivation / use case for changing the behavior?
+<!-- Describe the motivation or the concrete use case. -->
+
+
+## Environment
+
+<pre><code>
+ 
+For Tooling issues:
+- Node version: XX  <!-- run `node --version` -->
+- Platform:  <!-- Mac, Linux, Windows -->
+
+Others:
+<!-- Anything else relevant?  Operating system version, IDE, package manager, ... -->
+</code></pre>
