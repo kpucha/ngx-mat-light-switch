@@ -96,7 +96,7 @@ Install dependencies
 Build it
 
 ```bash
-  npm build
+  npm run build
 ```
 
 Import the component from your local distribution
