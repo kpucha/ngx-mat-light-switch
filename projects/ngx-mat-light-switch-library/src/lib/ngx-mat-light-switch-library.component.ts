@@ -27,7 +27,6 @@ import { ThemePalette } from '@angular/material/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NgxMatLightSwitchComponent implements OnInit {
-
   @Input() lightsOn: Boolean = true;
   @Input() color: ThemePalette = 'accent';
   @Input() tooltipOn: string = 'Turn lights off';
@@ -53,7 +52,7 @@ export class NgxMatLightSwitchComponent implements OnInit {
     this.setLightClass2Body();
   }
 
-  public lightStatus(): boolean {
+  public lightStatus(): Boolean {
     return this.lightsOn;
   }
 
