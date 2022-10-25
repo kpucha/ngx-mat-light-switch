@@ -22,7 +22,7 @@ Install with npm
 
 Import module from your local distribution
 
-```javascript
+```typescript
 import { LightSwitchModule } from 'ngx-mat-light-switch';
 //...
   imports: [..., LightSwitchModule]
@@ -108,7 +108,7 @@ Follow the Usage / Examples section steps..
 
 #### Get light status
 
-```javascript
+```typescript
 .lightStatus()
 ```
 
@@ -118,7 +118,7 @@ Follow the Usage / Examples section steps..
 
 #### Set light status
 
-```javascript
+```typescript
 .setLight(status)
 ```
 
@@ -128,6 +128,6 @@ Follow the Usage / Examples section steps..
 
 #### Toggle light status
 
-```javascript
+```typescript
 .toggleLigths()
 ```
