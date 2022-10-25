@@ -10,7 +10,7 @@ import {
 import { ThemePalette } from '@angular/material/core';
 
 @Component({
-  selector: 'ngx-mat-light-switch',
+  selector: 'light-switch',
   template: `
     <button
       mat-icon-button
@@ -26,7 +26,7 @@ import { ThemePalette } from '@angular/material/core';
   styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NgxMatLightSwitchComponent implements OnInit {
+export class LightSwitch implements OnInit {
   @Input() lightsOn: Boolean = true;
   @Input() color: ThemePalette = 'accent';
   @Input() tooltipOn: string = 'Turn lights off';
@@ -61,12 +61,12 @@ export class NgxMatLightSwitchComponent implements OnInit {
     this.setLightClass2Body();
   }
 
-  setMaterialClasses2Body() {
+  private setMaterialClasses2Body() {
     this.renderer.addClass(this.document.body, 'mat-app-background');
     this.renderer.addClass(this.document.body, 'mat-typography');
   }
 
-  setLightClass2Body() {
+  private setLightClass2Body() {
     if (this.lightsOn === false) {
       this.renderer.addClass(this.document.body, this.classOff);
       this.renderer.removeClass(this.document.body, this.classOn);

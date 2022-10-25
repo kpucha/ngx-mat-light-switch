@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
-import { NgxMatLightSwitchComponent } from './ngx-mat-light-switch-library.component';
+import { LightSwitch } from './ngx-mat-light-switch.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
-  declarations: [NgxMatLightSwitchComponent],
+  declarations: [LightSwitch],
   imports: [MatButtonModule, MatIconModule, MatTooltipModule],
-  exports: [NgxMatLightSwitchComponent],
+  exports: [LightSwitch],
 })
-export class NgxMatLightSwitchLibraryModule {}
- 
+export class LightSwitchModule {}

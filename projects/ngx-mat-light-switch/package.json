@@ -1,5 +1,5 @@
 {
-  "name": "ngx-mat-light-switch-library",
+  "name": "ngx-mat-light-switch",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",

@@ -12,8 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ngx-mat-light-switch-library": [
-        "dist/ngx-mat-light-switch-library"
+      "ngx-mat-light-switch": [
+        "dist/ngx-mat-light-switch"
       ]
     },
     "declaration": false,

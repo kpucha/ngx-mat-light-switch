@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-mat-light-switch-library'),
+      dir: require('path').join(__dirname, '../../coverage/ngx-mat-light-switch'),
       subdir: '.',
       reporters: [
         { type: 'html' },
