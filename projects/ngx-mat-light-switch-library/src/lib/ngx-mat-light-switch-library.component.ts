@@ -27,12 +27,14 @@ import { ThemePalette } from '@angular/material/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NgxMatLightSwitchLibraryComponent implements OnInit {
+
   @Input() lightsOn: Boolean = true;
   @Input() color: ThemePalette = 'accent';
   @Input() tooltipOn: string = 'Turn lights off';
   @Input() tooltipOff: string = 'Turn lights on';
   @Input() matIconOn: string = 'dark_mode';
   @Input() matIconOff: string = 'light_mode';
+
   private classOn: string = 'light-on';
   private classOff: string = 'light-off';
 
@@ -48,6 +50,15 @@ export class NgxMatLightSwitchLibraryComponent implements OnInit {
 
   public toggleTheme() {
     this.lightsOn = !this.lightsOn;
+    this.setLightClass2Body();
+  }
+
+  public lightStatus(): boolean {
+    return this.lightsOn;
+  }
+
+  public setLight(status: boolean) {
+    this.lightsOn = status;
     this.setLightClass2Body();
   }
 
